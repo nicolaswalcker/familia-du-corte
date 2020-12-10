@@ -12,33 +12,48 @@
 
 </head>
 <body>
-    <header>
-        <div class="botoes_navegar">
+    <header class="cabecalho">
+        <h1 id="logo">LOGO</h1>
+        <nav class="botoes-navegar">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#meus-trabalhos">Meus trabalhos</a></li>
                 <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Meus trabalhos</a></li>
             </ul>
-        </div>
+        <nav/>
     </header>
 
     <main>
-        
-        <h1>Inauguração</h1>
-
-        <div id="texto_infos"><p>Venha conferir a nossa
-            inauguração.<br /> Ocorrerá no dia
-            xx/xx/xx<br /> as 00:00 no seguinte endereço:
-            Rua Boa Esperança, n°xxx, <br />Bairro São Francisco.</p>
+        <div id="inicio">
+            <p class="texto-informacao">Venha conferir a nossa
+                inauguração. Ocorrerá no dia
+                xx/xx/xx as 00:00 no seguinte endereço:
+                Rua Boa Esperança, n°xxx, Bairro São Francisco.
+            </p>
+            <div class="contador">
+                <h2 class="titulo-contador">Dias para a inauguração</h2>
+                <div id="dday"></div>
+            </div>           
         </div>
+        
+        
+        
+        <hr>
+
+        <div id="meus-trabalhos"></div>
+
+
+
     </main>
 
-    <footer>
+
+
+    <footer class="rodape">
         <div class="botoes_contato">
             <a href="#">Whatsapp</a>
             <a href="#">Instagram</a>
         </div>
-    </footer>
-    
+    </footer>    
 </body>
+<script type="text/javascript" src="js/countdown.js"></script>
 </html>
