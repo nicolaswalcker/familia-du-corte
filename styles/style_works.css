@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box
+}
+.images{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#meus-trabalhos .title{
+    font-size: 32px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+#meus-trabalhos a{
+    border-radius: 50%;
+    cursor: default;
+
+}
+
+.photos{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 25px;
+    opacity: 70%;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    padding: 2px;
+    overflow: hidden;
+}
+
+
+.photos:hover{
+    opacity: 100%;
+    border:2px solid #DD1700 ;
+    border-radius: 10%;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+}
+
