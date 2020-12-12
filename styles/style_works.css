@@ -1,8 +1,9 @@
-*{
-    box-sizing: border-box
+#meus-trabalhos{
+    margin-left: 5px;
+    margin-right: 5px;
 }
-.images{
 
+.images{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,7 +11,7 @@
     flex-wrap: wrap;
 }
 
-#meus-trabalhos .title{
+.title{
     font-size: 32px;
     margin: 10px;
     text-align: center;
@@ -20,7 +21,6 @@
 #meus-trabalhos a{
     border-radius: 50%;
     cursor: default;
-
 }
 
 .photos{
@@ -30,8 +30,6 @@
     border: 2px solid white;
     margin: 25px;
     opacity: 70%;
-    -moz-transition: all .2s;
-    -webkit-transition: all .2s;
     transition: all .2s;
     padding: 2px;
     overflow: hidden;

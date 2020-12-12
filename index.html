@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Família du Corte | Home</title>
+    
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!--Estilos css-->
     <link rel="stylesheet" href="styles/style_inicio.css">
     <link rel="stylesheet" href="styles/style_works.css">
+    <link rel="stylesheet" href="styles/style_sobre_mim.css">
 
 </head>
 <body>
     <header class="cabecalho">
-        <h1 id="logo">LOGO</h1>
+        <img src="img/logo-familia-du-corte.png" alt="Logo Familia du Corte" id="logo">
         <nav class="botoes-navegar">
             <ul>
-                <li><a href="#inicio">Início</a></li>
+                <li><a href="#logo">Início</a></li>
                 <li><a href="#meus-trabalhos">Meus trabalhos</a></li>
-                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
             </ul>
         <nav/>
     </header>
@@ -37,7 +39,6 @@
             </div>           
         </div>       
         <hr> 
-
         <div id="meus-trabalhos">
             <h2 class="title">Conheça alguns dos meus trabalhos!</h2>
             <div class="images">
@@ -53,14 +54,32 @@
                 <a href="img/img3.png" target="_blank"><img src="img/img3.png" alt="Imagem corte de cabelo" class="photos"></a>
             </div>
         </div>
+        <hr> 
+        <div id="sobre-mim">
+            <h2 class="title">Sobre mim</h2>
+            <div class="informacoes">
+                <div class="foto-nome">
+                    <img src="img/img1.jpg" alt="Minha Imagem" class="perfil">
+                    <h2 class="nome">Igor Gonçalves dos Santos</h2>
+                </div>
+                <p class="informations">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo nisi veritatis beatae recusandae facilis sequi debitis libero provident, officia optio unde, amet architecto perferendis, tempora nam exercitationem vitae reprehenderit corrupti?<p>                
+            </div>
+        </div>
+        <a href="#logo" id="subir"><i class="fas fa-angle-double-up"></i>  Voltar para o topo</a>
     </main>
 
     <footer class="rodape">
-        <div class="botoes_contato">
-            <a href="#">Whatsapp</a>
-            <a href="#">Instagram</a>
+        <div class="botoes-contato">
+            <div class="contato">                
+                <a href="https://api.whatsapp.com/send?l=pt_BR&phone=+552799965-6138" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="contato">              
+                <a href="https://www.instagram.com/familia.ducorte/" target="_blank"> <i class="fab fa-instagram"></i></a>
+            </div>            
         </div>
+        <p>Familia du corte - Todos os direitos reservados©</p>
     </footer>    
 </body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 <script type="text/javascript" src="js/countdown.js"></script>
 </html>

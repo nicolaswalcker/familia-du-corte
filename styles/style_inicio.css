@@ -1,17 +1,26 @@
 *{
     text-decoration: none;
     margin: 0;
+    padding: 0;
     list-style-type: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
-a{
-    color: white;
+
+#logo{
+    width: 7%;
+    margin-top: 5px;
+    margin-left: 14px; 
 }
 
 body{
-    width: 100%;
+
     background: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
@@ -34,9 +43,11 @@ main{
 
 }
 
-
 .logo{
     margin-left: 15px;
+    color: white;
+}
+.cabecalho .botoes-navegar a{
     color: white;
 }
 
@@ -45,8 +56,8 @@ main{
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    color: white;
     transition: .2s ease all;
+    margin-right: 15px;
 }
 
 .botoes-navegar li{
@@ -134,6 +145,42 @@ hr{
     height: 80px;
     width: 100%;
 }
+.botoes-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+.botoes-contato .contato a{
+    color: #555555;
+    transition: all .2s;
+}
+.botoes-contato .contato a:hover{
+    color: #bdbdbd;
+    transition: all .2s;
+}
+
+.botoes-contato .contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 20px;  
+}
+
+.rodape p{
+    color: #555555;
+    font-size: 12px;
+    margin-right: 25px;
+
+}
+
+
+
+
+
 
 
 
