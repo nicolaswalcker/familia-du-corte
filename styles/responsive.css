@@ -1,0 +1,57 @@
+@media screen and (min-width: 1000px){
+    .photos{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #logo{
+        display: none;
+    }
+    .cabecalho{
+        justify-content: center;
+    }
+    .cabecalho .botoes-navegar{
+        margin: 0px 10px;
+    }
+    .images a:nth-child(2n+3){
+        display: none;
+        height: 50px;
+        width: 50px;
+    }        
+}
+
+@media screen and (max-width: 500px){ 
+    .botoes-navegar{
+        font-size: 14px;
+    }
+    main #inicio .texto-informacao{
+        font-size: 20px;
+    }
+    main #inicio .contador{
+        display: none;
+    }
+
+    main .title{
+        font-size: 25px;
+    }
+    main #meus-trabalhos .images .photos{
+        height: 100px;
+        width: 100px;
+        
+    }
+
+    #sobre-mim .informacoes .foto-nome{
+        display: none;
+    }
+    
+    #sobre-mim .informacoes{
+        
+        text-align: center;
+    }
+
+}
+
+
+
