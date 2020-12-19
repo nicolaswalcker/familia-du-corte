@@ -1,6 +1,6 @@
 
 // Definir a data que vai entrar em contagem regressiva
-var countDownDate = new Date("April 25, 2022 12:00:00").getTime();
+var countDownDate = new Date("December 17, 2020 12:00:00").getTime();
 
 // Atualizando a contagem regressiva a cada 1 segundo
 var x = setInterval(function () {
