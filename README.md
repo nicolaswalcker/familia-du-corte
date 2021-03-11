@@ -1,5 +1,4 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Familia Du Corte" />
 
   &#xa0;
 
